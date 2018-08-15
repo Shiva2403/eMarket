@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Dec, 2017, 2:07:51 PM
+    Author     : student
+*/
+
+body{
+    position: relative;
+    background-color: white;
+}
+#row1,#b2,#b3{
+    position: relative;
+    background-color: graytext;
+    border: none;
+    color: black;
+}
+#b1,#b{
+    position: relative;
+    background-color: graytext;
+    border-color: black;
+    color: black;
+}
+#h1{
+    color: black;
+    padding-left: 250px;
+}
+#m,#l,#k,#e,#h,#s{
+    padding-left: 10px;
+    padding-top: 50px;
+    height: 500px;
+    color: black;
+}
+#m,#k,#h{
+    background-color: white;
+}
+#l,#e,#s{
+    background-color: graytext;
+}
+#d11{
+    position: relative;
+    float: left;
+    background-color: white;
+}
+#d13{
+    position: relative;
+    float: right;
+    background-color: white;
+}
+#d12{
+    position: relative;
+    background-color: white;
+}
+.affix{
+    padding-top: 260px;
+    top: 0;
+    width: 100%;
+}
+#d1{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+li{
+    text-align: center;
+    color: black;
+    width: 180px;
+    height: 50px;
+}
