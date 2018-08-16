@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SHIVA e-MARKET</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js" type="text/javascript"></script>
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+        <div class="container-fluid">
+            <div id="row1" class="row">
+                <h4 class="col-sm-2">SHIVA e-MARKET</h4>
+                <input id="i1" class="col-sm-5" type="text" placeholder="Enter product">
+                <button id="b1" class="col-sm-1"><span class="glyphicon glyphicon-search"></span> Search</button>
+                <button id="b2" type="button" class="col-sm-2 btn btn-info btn-lg" data-toggle="modal" data-target="#m1">Login</button> 
+                <div class="modal fade" id="m1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">LOG IN</h4>                               
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                </div> 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default">LogIn</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="b3" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#m2">SignUp</button> 
+                <div class="modal fade" id="m2" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">SIGN UP</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                </div> 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="c1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#c1" data-slide-to="0" class="active"></li>
+                    <li data-target="#c1" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="jumbotron">
+                            <h1 id="h1" style="width: 100%;background-color: white;">SHIVA e-MARKET</h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="jumbotron">
+                            <h1 id="h1" style="width: 100%;background-color: graytext;">SHIVA e-MARKET</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#c1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#c1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> 
+        </div>     
+        <nav class="navbar" data-spy="affix" data-offset-top="0">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Mens</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Ladies</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kids</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Electronics</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Household</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sports</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Shirts">Shirts</a></li>
+                        <li><a href="#Tshirts">T-Shirts</a></li>
+                        <li><a href="#Pants">Pants</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="m">
+            <h4>Mens</h4>
+        </div>
+        <div id="l">
+            <h4>Ladies</h4>
+        </div>
+        <div id="k">
+            <h4>Kids</h4>
+        </div>
+        <div id="e">
+            <h4>Electronics</h4>
+        </div>
+        <div id="h">
+            <h4>Household</h4>
+        </div>
+        <div id="s">
+            <h4>Sports</h4>
+        </div>
+        <div id="d1" class="container-fluid">
+            <div class="row">
+                <div id="d11" class="col-lg-4">
+                    <h4><b>FOLLOW US</b></h4>
+                    <blockquote class="blockquote"><b>SHIVA e-MARKET</b></blockquote>
+                </div>
+                <div id="d12" class="col-lg-4">
+                    <h4><b>MENU</b></h4>
+                    <a href="#">Home</a><br>
+                    <a>About Us</a><br>
+                    <a>Contact Us</a>
+                </div>
+                <div id="d13" class="col-lg-4">
+                    <h4><b>ABOUT US</b></h4>
+                    <p id="p1">SHIVA e-MARKET is an online market web-page created by SHIVA SUNDAR as a project at Quest Innovative Solutions Pvt. Ltd.</p><br>
+                    <h5><b>Email:</b></h5>shivasundar18@gmail.com<br>
+                    <h5><b>Website:</b></h5>www.shivaemarket.com<br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
